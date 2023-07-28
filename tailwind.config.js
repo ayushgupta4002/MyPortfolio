@@ -11,11 +11,17 @@ module.exports = {
 
       'lg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
-      'xmd': {'max': '900px'},
+      'xmd': {'max': '950px'},
 
       'md': {'max': '767px'},
       // => @media (max-width: 767px) { ... }
       'nm': {'max': '680px'},
+      'nma': {'max': '590px'},
+      'nmb': {'max': '470px'},
+      'nmc': {'max': '430px'},
+      'nmd': {'max': '444px'},
+
+
 
       'xnm':{'max':'860px'},
 

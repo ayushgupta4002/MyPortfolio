@@ -1,3 +1,4 @@
+
 .input{
     background: #fff;
     border: 1px solid transparent;
@@ -24,15 +25,53 @@ input::placeholder {
     padding-top:1.2vh ;
     padding-bottom:1.2vh  ;
     margin-top: 1vh;
-    @media (max-width:400px)
+    @media (max-width:1040px)
     {
-        width:80%;
+      font-size: 1.8vh;
 
     }
-    
+    @media (max-width:818px)
+    {
+      font-size: 1.6vh;
+      padding-left: 1.5vh;
+      padding-right: 1.5vh;
+      padding-top:1.2vh ;
+      padding-bottom:1.2vh  
+
+    }
+    @media (max-width:723px)
+    {
+      font-size: 1.3vh;
+      padding-left: 1.2vh;
+      padding-right: 1.2vh;
+      padding-top:1vh ;
+      padding-bottom:1vh  
+
+    }
+    @media (max-width:723px)
+    {
+      font-size: 1.3vh;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      padding-top:0.7vh ;
+      padding-bottom:0.7vh;  
+
+    }
+    @media (max-width:562px)
+    {
+      font-size: 1.1vh;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      padding-top:0.7vh ;
+      padding-bottom:0.7vh;  
+     
+
+    }
+
     
     /* margin-left: 5vh; */
 }
+
 
 .buttontext{
     font-family: sans-serif;
@@ -49,6 +88,12 @@ input::placeholder {
     margin-top: 1vh;
     border-left: 1px solid rgb(223, 223, 223);
     height: 47vh;
+    @media (max-width:762px)
+    {
+      height: 40vh;
+
+    }
+
   }
 
 .font{
@@ -68,4 +113,8 @@ input::placeholder {
 .dfB0uf {
   color: #4d5156;
   font-weight: bold;
+  @media (max-width:444px)
+  {
+font-size: small;
+  }
 }

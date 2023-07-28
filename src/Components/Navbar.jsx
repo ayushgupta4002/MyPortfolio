@@ -5,27 +5,20 @@ function Navbar() {
   const [login, setLogin] = useState(true);
 
   return (
-    <div className="flex flex-col sticky top-0 ">
-    <nav className="flex sticky top-0 items-center w-[100%] px-4 border-bottom border-gray-600 bg-white mx-auto">
-      <div className="flex mt-[-1%] ml-[0.8%]">
+    <div className="flex flex-col sticky top-0 w-[screen]">
+    <nav className="flex sticky top-0 items-center w-[screen]  border-bottom border-gray-600 flex-row sm:flex-col bg-white ">
+      <div className="flex mt-[-1%] ml-[2vw] sm:ml-0">
         <img className="w-[97px] cursor-pointer" src="google.png" alt="..." />
       </div>
-      <div className="relative flex w-[59.5%] mt-[1%]  flex-col">
+      <div className=" flex w-[59.5%] sm:w-[90%] mt-[1%]  flex-col ">
+      <div>
         <input
-          className="input ml-[6%] mt-[2.3%] w-[100%] min-w-[30%] pt-[1.2%] text-lg pb-[1.2%] pl-5 pr-2 mb-2 flex flex-row justify-evenly"
+          className="input ml-[3.5vw] sm:ml-[0%] mt-[2.3%] w-[100%] min-w-[30%] pt-[1.2%] text-lg xmd:text-base nma:text-sm nmb:text-xs nma:pb-[0.8%] nmb:text-xs nma:pt-[0.8%] pb-[1.2%] pl-5 pr-2 mb-2 flex flex-row justify-evenly"
           placeholder="Ayush Gupta"
         />
-        <div>
-          {/* <svg
-            className="absolute top-1/2 transform -translate-y-1/2 left-2 text-gray-600 h-5 mt-1 w-5 pointer-events-none ml-[80%]"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-          </svg>
-          <div className="absolute h-7 border-r  border-gray-300 top-[55%] transform -translate-y-1/2 right-[6.1rem] pointer-events-none"></div> */}
         </div>
-        <div className="ml-[4.7%]">
+
+        <div className="ml-[4.7%] sm:ml-[0%] mb-2  ">
           <button type="submit" className="button ">
             <span className="buttontext">
               <a href="">Linkedin</a>
@@ -33,27 +26,27 @@ function Navbar() {
           </button>
           <button type="submit" className="button">
             <span className="buttontext">
-              <a href="">Aboutme</a>
+              <a href="">Linktree</a>
             </span>
           </button>
           <button type="submit" className="button">
             <span className="buttontext">
-              <a href="">twitter</a>
+              <a href="">Twitter</a>
             </span>
           </button>
           <button type="submit" className="button">
             <span className="buttontext">
-              <a href="">Contact </a>
+              <a href="">Blogs</a>
             </span>
           </button>
           <button type="submit" className="button">
             <span className="buttontext">
-              <a href="">Ayush</a>
+              <a href="">Contact</a>
             </span>
           </button>
         </div>
       </div>
-      <div class="flex  pl-[27%] mt-[-1%] w-[40%]">
+      <div class="flex sm:hidden pl-[27%] mt-[-1%] w-[40%]">
         <ul
           class={
             login
@@ -92,7 +85,7 @@ function Navbar() {
       </div>
      
     </nav>
-    <div className="bg-white"><hr className="w-[100%]  mt-[1%] dark:bg-gray-700  bg-gray-700"></hr></div>
+    <div className="bg-white"><hr className="w-[100vw]  mt-[1%] dark:bg-gray-700  bg-gray-700"></hr></div>
     
     </div>
   );

@@ -28,8 +28,8 @@ function Mainbody() {
   ]
   
   return (
-    <div className="flex flex-row mb-5">
-      <div className="w-[62vw]">
+    <div className="flex flex-row md:flex-col-reverse md:mb-3 mb-5 w-[100vw]">
+      <div className="w-[62vw] md:w-[100vw]">
       {jsondata.map((item, index) => (
         <ResultCard
           key={index}
@@ -45,9 +45,9 @@ function Mainbody() {
 
     
 
-      <div class="vl"></div>
+      <div class="vl ml-[1vw] md:hidden"></div>
 
-      <div className="w-[36vw] mt-[7vh] ml-[1.5vw] flex  flex-col">
+      <div className="w-[36vw] md:w-[90vw] md:ml-[4%] ml-[1vw]  mt-[7vh] md:mt-[3vh] flex  flex-col">
         <div>
           <div className="flex flex-row ">
             <div className="pt-2 ">
@@ -58,8 +58,8 @@ function Mainbody() {
               ></img>
             </div>
             <div className="flex flex-col ml-3 ">
-              <div className="text-3xl font">Ayush Gupta</div>
-              <div className="text-sm text-zinc-400	 font">Full Stack Developer</div>
+              <div className="text-3xl md:text-2xl sm:text-xl nma:text-lg  nmc:text-base font">Ayush Gupta</div>
+              <div className="text-sm text-zinc-400	 nma:text-sm nmc:text-xs font">Full Stack Developer</div>
             </div>
             <div className="w-8 ml-[30%] pt-2 ">
               <svg
@@ -73,8 +73,8 @@ function Mainbody() {
             </div>
           </div>
         </div>
-        <hr className="w-[100%]  mt-[3vh] dark:bg-gray-700  bg-gray-700"></hr>
-        <div className="mt-[3vh] text-[0.9rem] ">
+        <hr className=" w-[screen]  mt-[3vh] dark:bg-gray-700  bg-gray-700"></hr>
+        <div className="mt-[3vh] text-[0.9rem] md:text-[0.8rem]  nmd:text-[0.7rem] ">
           <div className="font">
             <b>University : </b> Guru Gobind Singh Indraprastha University
           </div>
@@ -91,8 +91,8 @@ function Mainbody() {
         </div>
         
         <p className="text-md font font-medium	">Skills Summary</p>
-        <hr className="w-[100%]  mt-[1vh] dark:bg-gray-800  bg-gray-800"></hr>
-        <div className="mt-[2vh] text-[0.9rem] ">
+        <hr className=" w-[screen]  mt-[1vh] dark:bg-gray-800  bg-gray-800"></hr>
+        <div className="mt-[2vh] text-[0.9rem] md:text-[0.8rem] nmd:text-[0.7rem]">
           <div className="font">
             <b>Programming Languages : </b>C,Java,Javascript,TypeScript,Python
           </div>
@@ -108,7 +108,7 @@ function Mainbody() {
           <br></br>
         </div>
         <p className="text-md font font-medium">Profiles</p>
-        <hr className="w-[100%]  mt-[1vh] dark:bg-gray-800  bg-gray-800"></hr>
+        <hr className=" w-[screen]  mt-[1vh] dark:bg-gray-800  bg-gray-800"></hr>
         <div className="mt-[1vh] ml-5">
         <ul class="flex flex-row md:items-center gap-[2vw] md:gap-2 ">
           <li className="pt-3">

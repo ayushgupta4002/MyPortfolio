@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='mt-[14vh] h-fit'>
+    <div className=' h-fit mt-[10vh]  ' >
         <div className='flex flex-col h-full bg-[#f2f2f2]'>
         <div className='text-base font p-3 pt-[3vh] pl-[12vw] text-[#70757a] flex flex-row '>
             <div>India</div>
             <div className='flex flex-row ml-[4vw]'>
             <div ><span class="EYqSq unknown_loc pl-25"></span></div>
-            <div ><span class="dfB0uf">Thank you for visiting! Let's connect and explore potential opportunities together. </span></div>
+            <div ><span class="dfB0uf ">Thank you for visiting! Let's connect and explore potential opportunities together. </span></div>
             </div>
            
         </div>
