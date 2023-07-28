@@ -47,7 +47,7 @@ function Mainbody() {
 
       <div class="vl ml-[1vw] md:hidden"></div>
 
-      <div className="w-[36vw] md:w-[90vw] md:ml-[4%] ml-[1vw]  mt-[7vh] md:mt-[3vh] flex  flex-col">
+      <div className="w-[36vw] md:w-[90vw] md:ml-[4%] ml-[1vw]  mt-[7vh] md:mt-[3.5vh] flex  flex-col">
         <div>
           <div className="flex flex-row ">
             <div className="pt-2 ">

@@ -1,6 +1,7 @@
 .App {
   overflow-x: hidden;
-  max-height: 220vh;
+  max-height: 230vh;
+  overflow-y: hidden;
 
 }
 
