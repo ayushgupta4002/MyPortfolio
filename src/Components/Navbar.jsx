@@ -1,8 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 function Navbar() {
-  const [login, setLogin] = useState(true);
 
   return (
     <div className="flex flex-col sticky top-0 w-[screen]">
@@ -21,39 +19,34 @@ function Navbar() {
           <div className="ml-[4.7%] sm:ml-[0%] mb-2  ">
             <button type="submit" className="button ">
               <span className="buttontext">
-                <a href="">Linkedin</a>
+              <a href="https://www.linkedin.com/in/ayush-gupta-253092227/"  target="blank">Linkedin</a>
               </span>
             </button>
             <button type="submit" className="button">
               <span className="buttontext">
-                <a href="">Linktree</a>
+                <a href="https://linktr.ee/NovusAyush"  target="blank">Linktree</a>
               </span>
             </button>
             <button type="submit" className="button">
               <span className="buttontext">
-                <a href="">Twitter</a>
+              <a href="https://twitter.com/Ayush3241"  target="blank">Twitter</a>
               </span>
             </button>
             <button type="submit" className="button">
               <span className="buttontext">
-                <a href="">Blogs</a>
+                <a href="https://medium.com/@ayush4002gupta/a-comprehensive-guide-for-contributing-to-open-source-5e0c63f329bb"  target="blank">Blogs</a>
               </span>
             </button>
             <button type="submit" className="button">
               <span className="buttontext">
-                <a href="">Contact</a>
+              <a href="mailto:ayush4002gupta@gmail.com" >Contact</a>
               </span>
             </button>
           </div>
         </div>
         <div class="flex sm:hidden pl-[27vw] xmd:pl-[23vw] mr-1 mt-[-1%] w-[40%]">
           <ul
-            class={
-              login
-                ? "flex flex-row md:items-center gap-[2vw] md:gap-2 "
-                : "hidden "
-            }
-          >
+            className="flex flex-row md:items-center gap-[2vw] md:gap-2" >
             <li className="pt-3">
               <svg
                 class="w-7  md:pl-1 md:w-8 cursor-pointer"

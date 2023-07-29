@@ -9,21 +9,21 @@ function Mainbody() {
       "name": " Mojo Tech",
       "link": " https://mojowebtech.com/ ",
       "heading": "Web Developer Intern (May 2023 - Present)...",
-      "content": "Worked On Software as a Service Projects using Facebook/Shopify/Google/OpenAI Apis to deliver Products.Worked on the official website of company..."
+      "content": "Excelled in Software as a Service projects, skillfully leveraging Facebook, Shopify, Google, and OpenAI APIs to deliver exceptional products. Instrumental in crafting the official company website, resulting in a % increase in user engagement and a driving significant business growth and customer satisfaction..."
     },
     {
       "image": "sdc.jpg",
       "name": "Software Development Cell ,USS",
-      "link": "https://example.com/profile/jane-smith",
+      "link": "https://sdc-usict.github.io/",
       "heading": "Lead Developer (May 2022 - present)..." ,
-      "content": "Project lead of Attendance Management App & Website for our university which resulted in Digitalizing attendance-taking procedure and reducing paperwork by 85%. Maintained and significantly improved the performance of the Online Student Feedback System for our university by promptly addressing 95% of reported issues and implementing iterative enhancements."
+      "content": "Project lead of Attendance Management App & Website for our university which resulted in Digitalizing attendance-taking procedure and reducing paperwork by 85%. Maintained and significantly improved the performance of the Online Student Feedback System for our university by promptly addressing 95% of reported issues and implementing iterative enhancements..."
     },
     {
       "image": "acm1.jpg",
       "name": "GGSIP University USS ACM Student Chapter ",
       "link": "https://usict.acm.org/",
       "heading": "Developer and Vice Lead-Devsource (Sep 2022 - Present)..",
-      "content": "Successfully developed ACM’s personalized Profile Management Software, streamlining the record-keeping process for all team members.Vice Lead for the DevSource Club under USS ACM to mentor and guide college students into Development. Collaborated on enhancing the official USS ACM website using React.js, successfully integrating new features to improve user experience and functionality"
+      "content": "Successfully developed ACM’s personalized Profile Management Software, streamlining the record-keeping process for all team members.Vice Lead for the DevSource Club under USS ACM to mentor and guide college students into Development. Collaborated on enhancing the official USS ACM website using React.js, successfully integrating new features to improve user experience and functionality..."
     }
   ]
   
@@ -62,7 +62,7 @@ function Mainbody() {
               <div className="text-sm text-zinc-400	 nma:text-sm nmc:text-xs font">Full Stack Developer</div>
             </div>
             <div className="w-8 ml-[30%] pt-2 ">
-              <svg
+            <a href="https://linktr.ee/NovusAyush" target="blank"> <svg
                 focusable="false"
                 className="border-2 border-black-600 rounded-full"
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,9 @@ function Mainbody() {
               >
                 <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
               </svg>
+              </a>
             </div>
+           
           </div>
         </div>
         <hr className=" w-[screen]  mt-[3vh] dark:bg-gray-700  bg-gray-700"></hr>
@@ -112,39 +114,49 @@ function Mainbody() {
         <div className="mt-[1vh] ml-5">
         <ul class="flex flex-row md:items-center gap-[2vw] md:gap-2 ">
           <li className="pt-3">
+          <a href="https://www.linkedin.com/in/ayush-gupta-253092227/" target="blank">
           <img
               class="w-10 rounded  md:pl-1 md:w-8 cursor-pointer"
               src="linkedin.png"
               alt="..."
             ></img>
+            </a>
           </li>
           <li className="items-center pt-3">
+          <a href="https://twitter.com/Ayush3241" target="blank">
           <img
               class="w-10 rounded  md:pl-1 md:w-8 cursor-pointer"
               src="twiter.png"
               alt="..."
             ></img>
+            </a>
           </li>
           <li className="items-center pt-3">
+          <a href="https://www.instagram.com/_ayush_ftw/" target="blank">
             <img
               class="w-10 rounded  md:pl-1 md:w-8 cursor-pointer"
               src="insta.png"
               alt="..."
             ></img>
+            </a>
           </li>
           <li className="items-center pt-3">
+          <a href="https://github.com/ayushgupta4002" target="blank">
             <img
               class="w-10 rounded  md:pl-1 md:w-8 cursor-pointer"
               src="github.png"
               alt="..."
             ></img>
+            </a>
           </li>
           <li className="items-center pt-3">
+          <a href="mailto:ayush4002gupta@gmail.com" target="blank">
             <img
               class="w-12 rounded  md:pl-1 md:w-8 cursor-pointer"
               src="gmail.png"
               alt="..."
             ></img>
+            </a>
           </li>
         </ul>
         </div>

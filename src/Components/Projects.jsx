@@ -25,12 +25,13 @@ function Projects() {
             <div>
               <div className="h-[50%]  pt-[1vh]  nmb:pt-[0.5vh] ">
 
-                  <div className="flex flex-col ml-3 nmb:ml-0  ">
+                 <a href="https://testify-1-0.vercel.app/"  target="blank"> <div className="flex flex-col ml-3 nmb:ml-0  ">
                     <div className="text-xl md:text-lg font">Testify </div>
                     <div className="text-sm  pt-[1vh] text-[#1a0db3]  font-[450] font">
                     Testify, a powerful tool, simplifies unit testing for projects with a straightforward GET request. It eliminates the need for importing and managing testing packages, achieving an impressive 80% reduction in setup time. 
                     </div>
                   </div>
+                  </a>
                 </div>
             </div>
           </div>
@@ -47,7 +48,7 @@ function Projects() {
                   alt="..."
                 ></img>
               </div> */}
-              <div className="flex flex-col ml-3 nmb:mt-1  nmb:ml-0 ">
+              <a href="https://github.com/DevFeed404/DevFeed-1.0"  target="blank"><div className="flex flex-col ml-3 nmb:mt-1  nmb:ml-0 ">
                 <div className="text-base font">DevFeed</div>
                 <div className="text-sm text-[#1a0db3]  font-[450]	 font">
                   Devfeed is an Open-source Project which will never let you
@@ -56,6 +57,7 @@ function Projects() {
                   with exclusive updates on the latest events.
                 </div>
               </div>
+              </a>
             </div>
           </div>
           <hr className="w-[98%]  nmb:hidden ml-[1%] mr-[1%] mt-[5vh] xmd:mt-[8vh] mb-[2vh] dark:bg-gray-800  bg-gray-800"></hr>
@@ -69,7 +71,7 @@ function Projects() {
              alt="..."
            ></img>
          </div> */}
-              <div className="flex flex-col ml-3  nmb:mt-3  nmb:ml-0  ">
+             <a href="https://www.npmjs.com/package/openai-assist"  target="blank"><div className="flex flex-col ml-3  nmb:mt-3  nmb:ml-0  ">
                 <div className="text-base font">Openai-Assist </div>
                 <div className="text-sm  text-[#1a0db3]  font-[450] font">
                   Openai-Assist is a game-changing Npm package for seamless
@@ -78,6 +80,7 @@ function Projects() {
                   impressive 70%.
                 </div>
               </div>
+              </a>
             </div>
           </div>
         </div>

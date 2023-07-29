@@ -1,19 +1,19 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import './Home.css';
 import Navbar from '../Components/Navbar';
 import Mainbar from '../Components/Mainbar';
 import Mainbody from '../Components/Mainbody';
-import Gallery from '../Components/Gallery';
-import ResultCard from '../Components/ResultCard';
-import Footer from '../Components/Footer';
+
+import { Helmet } from "react-helmet";
 
 
 function Home() {
-    const [login, setLogin] = useState(true);
 
     return (
         <div className='flex flex-col'>
+        <Helmet>
+        <title>Ayush Gupta</title>
+      </Helmet>
       <Navbar/>
      
       <div className='mt-2 ml-[12%] md:ml-[5%] text-zinc-500 font-[450]	sm:text-xs text-sm'>
