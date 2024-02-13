@@ -95,12 +95,12 @@ function Mainbody() {
          
           <div className="pt-[1vh] font">
             {" "}
-            <b>Frontend Development : </b>Next.js,React.js,TailwindCSS,Redux,Flutter
+            <b>Frontend Dev : </b>Next.js,React.js,TailwindCSS,Redux,Flutter
           </div>
           
           <div className="pt-[1vh] font">
             <div class="flex flex-row">
-              <div> <b>Backend Development : </b></div>
+              <div> <b>Backend Dev : </b></div>
               <div>Node.js,Typescript,GraphQl,Express.js,Cargo,GoLang,Git,Github</div>
             </div>
            
