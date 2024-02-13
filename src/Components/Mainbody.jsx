@@ -99,7 +99,11 @@ function Mainbody() {
           </div>
           
           <div className="pt-[1vh] font">
-            <b>Backend Development : </b>Node.js,Typescript,GraphQl,Express.js,Cargo,GoLang,Git,Github
+            <div class="flex flex-row">
+              <div> <b>Backend Development : </b></div>
+              <div>Node.js,Typescript,GraphQl,Express.js,Cargo,GoLang,Git,Github</div>
+            </div>
+           
           </div>
           <div className="pt-[1vh] font">
             <b>DevOps and Cloud : </b>CI/CD,Jenkins,Kubernetes,Docker,AWS,GCP
