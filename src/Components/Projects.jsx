@@ -12,7 +12,7 @@ function Projects() {
         </div>
       </div>
       <hr className="w-[98%] ml-[1%]  mt-[3vh] dark:bg-gray-800  bg-gray-800"></hr>
-      <div  className="flex flex-row nmb:flex-col h-[fit] w-[95%] mt-[3vh] mr-[1vw]">
+      <div className="flex flex-row nmb:flex-col h-[fit] w-[95%] mt-[3vh] mr-[1vw]">
         <div className="w-[48%] nmb:flex-col  nmb:w-[90vw] ">
           <div className="flex flex-col mr-2">
             <div className="nmb:hidden">
@@ -25,14 +25,14 @@ function Projects() {
             <div>
               <div className="h-[50%]  pt-[1vh]  nmb:pt-[0.5vh] ">
 
-                 <a href="https://testify-1-0.vercel.app/"  target="blank"> <div className="flex flex-col ml-3 nmb:ml-0  ">
-                    <div className="text-xl md:text-lg font">Testify </div>
-                    <div className="text-sm  pt-[1vh] text-[#1a0db3]  font-[450] font">
-                    Testify, a powerful tool, simplifies unit testing for projects with a straightforward GET request. It eliminates the need for importing and managing testing packages, achieving an impressive 80% reduction in setup time. 
-                    </div>
+                <a href="https://testify-1-0.vercel.app/" target="blank"> <div className="flex flex-col ml-3 nmb:ml-0  ">
+                  <div className="text-xl md:text-lg font">Testify </div>
+                  <div className="text-sm  pt-[1vh] text-[#1a0db3]  font-[450] font">
+                    Testify, a powerful tool, simplifies unit testing for projects with a straightforward GET request. It eliminates the need for importing and managing testing packages, achieving an impressive 80% reduction in setup time.
                   </div>
-                  </a>
                 </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ function Projects() {
                   alt="..."
                 ></img>
               </div> */}
-              <a href="https://github.com/DevFeed404/DevFeed-1.0"  target="blank"><div className="flex flex-col ml-3 nmb:mt-1  nmb:ml-0 ">
+              <a href="https://github.com/DevFeed404/DevFeed-1.0" target="blank"><div className="flex flex-col ml-3 nmb:mt-1  nmb:ml-0 ">
                 <div className="text-base font">DevFeed</div>
                 <div className="text-sm text-[#1a0db3]  font-[450]	 font">
                   Devfeed is an Open-source Project which will never let you
@@ -71,13 +71,12 @@ function Projects() {
              alt="..."
            ></img>
          </div> */}
-             <a href="https://www.npmjs.com/package/openai-assist"  target="blank"><div className="flex flex-col ml-3  nmb:mt-3  nmb:ml-0  ">
-                <div className="text-base font">Openai-Assist </div>
+              <a href="" target="blank"><div className="flex flex-col ml-3  nmb:mt-3  nmb:ml-0  ">
+                <div className="text-base font">Saksham</div>
                 <div className="text-sm  text-[#1a0db3]  font-[450] font">
-                  Openai-Assist is a game-changing Npm package for seamless
-                  ChatGPT API integration. Experience the power of ChatGPT with
-                  just 3 lines of code, reducing integration time by an
-                  impressive 70%.
+                  Spearheaded Saksham, a revolutionary project that clinched the 1st prize in <b>Smart India Hackathon’23</b>,
+                  dedicated to empowering specially-abled individuals in India. A platform aiming to bridge educational and societal gaps, offering education,
+                  personal assistance, and seamless communication for the specially-abled.
                 </div>
               </div>
               </a>
@@ -85,7 +84,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      
+
 
 
     </div>
