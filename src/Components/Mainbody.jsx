@@ -8,23 +8,17 @@ function Mainbody() {
       "image": "mojo.jpg",
       "name": " Mojo Tech",
       "link": " https://mojowebtech.com/ ",
-      "heading": "Web Developer Intern (May 2023 - Present)...",
+      "heading": "Web Developer Intern (June 2023 - January 2024)...",
       "content": "Excelled in Software as a Service projects, skillfully leveraging Facebook, Shopify, Google, and OpenAI APIs to deliver exceptional products. Instrumental in crafting the official company website, resulting in a % increase in user engagement and a driving significant business growth and customer satisfaction..."
     },
     {
       "image": "sdc.jpg",
       "name": "Software Development Cell ,USS",
       "link": "https://sdc-usict.github.io/",
-      "heading": "Lead Developer (May 2022 - present)..." ,
+      "heading": "Lead Developer (May 2022 - December 2023)..." ,
       "content": "Project lead of Attendance Management App & Website for our university which resulted in Digitalizing attendance-taking procedure and reducing paperwork by 85%. Maintained and significantly improved the performance of the Online Student Feedback System for our university by promptly addressing 95% of reported issues and implementing iterative enhancements..."
     },
-    {
-      "image": "acm1.jpg",
-      "name": "GGSIP University USS ACM Student Chapter ",
-      "link": "https://usict.acm.org/",
-      "heading": "Developer and Vice Lead-Devsource (Sep 2022 - Present)..",
-      "content": "Successfully developed ACM’s personalized Profile Management Software, streamlining the record-keeping process for all team members.Vice Lead for the DevSource Club under USS ACM to mentor and guide college students into Development. Collaborated on enhancing the official USS ACM website using React.js, successfully integrating new features to improve user experience and functionality..."
-    }
+    
   ]
   
   return (
